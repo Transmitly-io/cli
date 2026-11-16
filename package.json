@@ -3,8 +3,34 @@
   "version": "1.1.0",
   "description": "Transmitly CLI for sending mail and inspecting delivery state",
   "type": "module",
-  "bin": { "transmitly": "./index.js" },
-  "files": ["index.js", "README.md"],
-  "engines": { "node": ">=18" },
-  "license": "MIT"
+  "bin": {
+    "transmitly": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "email",
+    "transactional",
+    "smtp",
+    "webhooks",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Transmitly-io/cli.git"
+  },
+  "homepage": "https://transmitly.io/docs/sdks",
+  "bugs": {
+    "url": "https://github.com/Transmitly-io/cli/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
